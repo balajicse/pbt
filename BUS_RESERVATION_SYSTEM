@@ -1,31 +1,31 @@
                                   DATABASE FOR BUS RESERVATION SYSTEM
                                 
-    LOG_IN:
-    Customer_id     Email_id       Password
+    1.LOG_IN:
+      Customer_id     Email_id       Password
    
-   CUSTOMER_DETAILS:
-   Customer_id    Name    Gender    Age 
+   2.CUSTOMER_DETAILS:
+      Customer_id    Name    Gender    Age 
    
-   TRAVELS_DETAILS:
-   Travels_id    Travels_name   Contact_no   Address
+   3.TRAVELS_DETAILS:
+      Travels_id    Travels_name   Contact_no   Address
    
-   BUS_DETAILS:
-   Bus_no    Available_seats    Type     Travels_id 
+   4.BUS_DETAILS:
+      Bus_no    Available_seats    Type     Travels_id 
    
-   ROUTE_DETAILS:
-   Route_no  From   To    Distance
+   5.ROUTE_DETAILS:
+      Route_no  From   To    Distance
    
-   KEY_MAP:
-   key_id       Bus_no       Route_no
+   6.KEY_MAP:
+      key_id       Bus_no       Route_no
    
-   BOOKING_DETAILS:
-   Booking_id   customer_id   Key_id    Passenger_name    Seat_no    Age    Gender   payment_status 
+   7.BOOKING_DETAILS:
+      Booking_id   customer_id   Key_id    Passenger_name    Seat_no    Age    Gender   payment_status 
    
-   CANCELLATION:
-   Booking_id    Travels_id    Bus_no    seat_no    Date 
+   8.CANCELLATION:
+      Booking_id    Travels_id    Bus_no    seat_no    Date 
    
-   BOOKING_STATUS
-   Booking_id   status  
+   9.BOOKING_STATUS
+      Booking_id   status  
    
-   PAYMENT_DETAILS:
-   Payment_id     Booking_id    Payment_method  Amount     Date 
+   10.PAYMENT_DETAILS:
+      Payment_id     Booking_id    Payment_method  Amount     Date 
